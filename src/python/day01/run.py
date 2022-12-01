@@ -1,6 +1,8 @@
-INPUT = "data.txt"
+DAY = "01"
+TYPE = "input"
 
-data = [l.strip() for l in open(INPUT)]
+file_path = f"data/{DAY}_{TYPE}.txt"
+data = [l.strip() for l in open(file_path)]
 acc = 0
 s = []
 
